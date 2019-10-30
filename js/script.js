@@ -4,7 +4,17 @@ $( "document" ).ready(function() { //this helps your jQuery to work. Write all o
         $(".output").html(input);
 
     });
+function word (pig);
+    let vowel = ["a", "e", "i", "o" "u"];
+    let firstletter = pig[0];
+    let newword = pig.substring(1, end);
+    vowel.forEach(function(vowels){
+        if (firstletter == vowel){
+            $(".output").html(newword + pig[0])
+    }
 
+
+}
 
 
 
